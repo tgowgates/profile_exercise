@@ -1,0 +1,132 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #303030;
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 300; /* if you want the light version */
+}
+
+h1 {
+  color: #05668D;
+}
+
+h2, h3 {
+  color: #028090;
+}
+
+a {
+  color: #00A896;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #02C39A;
+}
+
+th {
+  color: #028090;
+  padding-bottom: 10px;
+}
+
+
+img {
+  width: 250px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+table {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+table th {
+  font-size: 20px;
+
+}
+
+table td {
+  padding: 10px;
+}
+
+i.fab {
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.container {
+  width: 575px;
+  margin: 75px auto;
+  box-shadow: 10px 0px 1000px rgba(0,0,0,0.7);
+}
+
+.card {
+  padding: 5px 0px;
+}
+
+.img-shadow {
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+.profile-image {
+  border-radius: 50%;
+  margin: 20px 0;
+  width: 250px;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(133deg, #028090, #02C39A);
+}
+
+.header  {
+  text-align: center;
+  padding: 2.5px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 0 10px 10px 10px;
+}
+
+.white-color {
+  color: white;
+}
+
+.white-color:hover {
+  color: #02C39A;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links ul {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 320px;
+  }
+
+  img {
+  width: 150px;
+}
+}
+
+
